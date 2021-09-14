@@ -1,0 +1,77 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 14px; 
+    font-weight: 500;
+    margin: 6vh auto;
+}
+
+.container {
+    min-width: 320px;
+    background-color: hsl(210, 46%, 95%);
+    line-height: 23px;
+}
+
+.container .cardOne {
+    background: url("images/bg-pattern-quotation.svg") top 0 right 100px no-repeat;
+    background-color: hsl(263, 55%, 52%);
+}
+
+.container .cardTwo {
+    background-color: hsl(217, 19%, 35%);
+    min-width: 215px;
+}
+
+.container .cardThree {
+    background-color: hsl(0, 0%, 100%);
+    min-width: 215px;
+}
+
+.container .cardFour {
+    background-color:  hsl(219, 29%, 14%);
+}
+
+.container .cardFive {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.container .textDark {
+    color: hsla(217, 19%, 35%, 0.938);
+}
+
+.container .textLight {
+    color: hsla(0, 0%, 81%, 0.842);
+}
+
+.container .textLight h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+.container .textDark h2  {
+    color: hsl(217, 19%, 35%);
+}
+
+.container h2 {
+    letter-spacing: 1px;
+}
+
+.cardOne, .cardTwo, .cardThree, .cardFour, .cardFive {
+    border-radius: 10px;
+}
+
+.container .textDark span {
+    color: hsla(217, 19%, 35%, 0.678);
+}
+
+.container .textLight span {
+    color: hsla(0, 0%, 81%, 0.651);
+}
+
+@media (min-width: 995px) {
+    .container .cardFive {
+        max-width: 300px; 
+    }
+}
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
